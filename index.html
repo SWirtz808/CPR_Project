@@ -3,16 +3,85 @@
 <head>
 
 <style>
-   
+
+body {
+  background-image: url(media/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}    
+    
+div.gallery {
+  margin: 5px;
+  border: 5px solid #000;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 5px solid #555;
+}
+ 
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;      
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  width: 500px;
+  text-align: center
+}
+    
 </style>
 
-<title></title>
+<title>French Project</title>
 
 </head>
 
 <body>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tQco3nyO6PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/tQco3nyO6PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>The Cherifian Anthem is the national anthem of Morocco composed by Leo Morgan in 1956 during the French Protectorate</p>
+
+    
+<div class="gallery">
+  <a target="_blank" href="media/mosque.png">
+    <img src="media/mosque.png" alt="Religion" width="300" height="200">
+  </a>
+  <div class="desc">99% of the population is Islamic</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="media/clothing.png">
+    <img src="media/clothing.png" alt="Clothes" width="300" height="200">
+  </a>
+  <div class="desc">Traditional Clothing for Moroccans</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="media/couscous.png">
+    <img src="media/couscous.png" alt="Food" width="300" height="200">
+  </a>
+  <div class="desc">Couscous, a traditional dish</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="media/sahara.png">
+    <img src="media/sahara.png" alt="Geography" width="300" height="200">
+  </a>
+  <div class="desc">Home to the Sahara Desert</div>
+</div>
+    
+<button onclick="document.location='facts.html'" style="font-size: 50px; background-color: white">Next</button>
     
 </body>
     
